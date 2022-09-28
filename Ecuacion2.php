@@ -2,6 +2,8 @@
 
 // $mensaje=str_split("BnodJo s, dBneam");
 
+// Recogemos el mensaje del formulario
+// Con la función str_split separamos cada caracter del string en una posicion de un array que llamamos
 $mensaje=str_split($POST_["mensaje"]);
 
 
