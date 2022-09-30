@@ -1,10 +1,12 @@
 <?php
 
-// $mensaje=str_split("BnodJo s, dBneam");
-
 // Recogemos el mensaje del formulario
 // Con la función str_split separamos cada caracter del string en una posicion de un array que llamamos
-$mensaje=str_split($POST_["mensaje"]);
+$x2=$_POST['mensaje'];
+$mensaje=str_split($_POST['mensaje']);
+
+// $mensaje=str_split("BnodJo s, dBneam");
+
 
 
 // print_r($mensaje);
@@ -25,13 +27,13 @@ $finalbueno = array_reverse($final);
 
 
 
-print_r($finalbueno);
+// print_r($finalbueno);
 
 $mensaje1=implode($inicial).implode($finalbueno);
 
-echo "$mensaje1";
+// echo "$mensaje1";
 
-echo "<script>window.location='Ecuacion1.php';</script>"
+// echo "<script>window.location='Ecuacion1.php';</script>"
 
 
 

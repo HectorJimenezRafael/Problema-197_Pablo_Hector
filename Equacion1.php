@@ -1,6 +1,14 @@
+
+
+
+
 <?php
+
+
 // $primeraEQ= str_split($_POST['mensaje1']);
-$primeraEQ= str_split("BoJ ,dnameB sodn");
+$primeraEQ= str_split("$mensaje1");
+
+
 array_push($primeraEQ,".");
 // print_r($primeraEQ);
 $vocales= ["A","E","I","O","U","a","e","i","o","u","."];
@@ -73,7 +81,7 @@ $punto=count($original);
 unset($original[$punto-1]);
 
 $mensajeFinal=implode($original);
-echo $mensajeFinal;
+// echo $mensajeFinal;
 
 // $original=[];
 // $valor="a";
