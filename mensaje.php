@@ -17,7 +17,7 @@
     require "Equacion1.php";
     echo "x2 = $x2";
     echo"<br>";
-    echo "x2 -> x1 =>$mensaje1";
+    echo "x2 -> x1 = $mensaje1";
    
 
     ?>
@@ -48,7 +48,7 @@
 
             <div class="flip-card">
                 <div class="flip-card-inner">
-                    <div class="flip-card-front" style="background-image: url('img/Hector.jpeg');" >
+                    <div class="flip-card-front" style="background-image: url('img/Hector_jr.png');" >
 
                     </div>
                     <div class="flip-card-back">
