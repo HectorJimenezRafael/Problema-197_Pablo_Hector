@@ -5,12 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- hoja de estilos -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/20a538d92d.js" crossorigin="anonymous"></script>
+    <title>PROBLEMA-197</title>
 </head>
 
 <body>
 
-    <h1>ESCRIBE TU MENSAJE PARA CODIFICARLOS</h1>
+    <!-- <h1>ESCRIBE TU MENSAJE PARA CODIFICARLOS</h1>
 
     <form action="proc.php" method="post">
 
@@ -21,7 +24,27 @@
         <input type="submit">
 
 
-    </form>
+    </form> -->
+
+    <section class="form-contact">
+        <header style="display: flex;align-items: center;">
+            <p style="text-align: center;font-size: 20px; margin-left: 10px;">ESCRIBE TU MENSAJE CODIFICADO</p>
+            <span>
+            
+            <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+          </span>
+        </header>
+
+        <form action="" class="contact" method="POST">
+
+
+            <label for="mensaje">Mensaje</label>
+            <textarea name="mensaje" id="mensaje"></textarea>
+            <input type="submit" value="DESCIFRAR">
+
+
+        </form>
+    </section>
 
 
 
